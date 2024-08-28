@@ -1,7 +1,7 @@
 const {
-  zokou
-} = require("../framework/zokou");
-zokou({
+  adams
+} = require("../Ibrahim/adams");
+adams({
   'nomCom': 'github',
   'reaction': '📃',
   'categorie': "Search"
