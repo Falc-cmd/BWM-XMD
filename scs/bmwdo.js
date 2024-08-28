@@ -1,5 +1,5 @@
 const { adams } = require("../Ibrahim/adams");
-const fancy = require("../bmw/style");
+const fancy = require("../scs/style");
 
 adams({ nomCom: "fancy", categorie: "Fun", reaction: "〽️" }, async (dest, zk, commandeOptions) => {
     const { arg, repondre, prefixe } = commandeOptions;
