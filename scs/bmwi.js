@@ -4,7 +4,7 @@ const traduire = require("../Ibrahim/traduction");
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 
 adams({
-  nomCom: "ranime",
+  nomCom: "randompic",
   categorie: "Fun",
   reaction: "📺"
 },
