@@ -1,4 +1,4 @@
-const {zokou}=require("../framework/zokou")
+const {adams}=require("../Ibrahim/zokou")
 
 
 
@@ -6,7 +6,7 @@ const {zokou}=require("../framework/zokou")
 
 
 
-zokou({nomCom:"restart",categorie:"Mods",reaction:"📴"},async(dest,z,com)=>{
+adams({nomCom:"restart",categorie:"Mods",reaction:"📴"},async(dest,z,com)=>{
 
 
   
