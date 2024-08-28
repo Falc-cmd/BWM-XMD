@@ -1,9 +1,9 @@
-const { zokou } = require('../framework/zokou');
+const { adams } = require('../framework/adams');
 const {ajouterUtilisateurAvecWarnCount , getWarnCountByJID , resetWarnCountByJID} = require('../bdd/warn')
 const s = require("../set")
 
 
-zokou(
+adams(
     {
         nomCom : 'warn',
         categorie : 'Group'
