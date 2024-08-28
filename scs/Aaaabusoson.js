@@ -1,6 +1,6 @@
 
 
-const { zokou } = require("../framework/zokou");
+const { adams } = require("../Ibrahim/adams");
 const yts = require('yt-search');
 const BaseUrl = 'https://gifted-apis-third-30b2fdbb9819.herokuapp.com';
 const giftedapikey = 'giftedtechk';
