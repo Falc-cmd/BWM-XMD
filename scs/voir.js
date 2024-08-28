@@ -1,8 +1,8 @@
-const {zokou}=require("../framework/zokou") ;
+const {adams}=require("../framework/adams") ;
 
 
 
-zokou({nomCom:"vv",categorie:"General",reaction:"🤲🏿"},async(dest,zk,commandeOptions)=>{
+adams({nomCom:"vv",categorie:"General",reaction:"🤪"},async(dest,zk,commandeOptions)=>{
 
 const {ms,msgRepondu,repondre}=commandeOptions;
 
