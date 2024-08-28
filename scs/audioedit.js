@@ -1,11 +1,11 @@
-const {zokou} = require('../framework/zokou');
+const {adams} = require('../Ibrahim/adams');
 const fs = require("fs");
 const { exec } = require("child_process");
 
 
 const filename = `${Math.random().toString(36)}`;
 
-zokou (
+adams (
     {
         nomCom : 'deep',
         categorie : 'Audio-Edit',
@@ -50,7 +50,7 @@ zokou (
     }
 );
 
-zokou (
+adams (
     {
         nomCom : 'bass',
         categorie : 'Audio-Edit',
@@ -95,7 +95,7 @@ zokou (
     }
 );
 
-zokou(
+adams(
     {
       nomCom: 'reverse',
       categorie: 'Audio-Edit',
@@ -131,7 +131,7 @@ zokou(
     }
   );
   
-  zokou(
+  adams(
     {
       nomCom: 'slow',
       categorie: 'Audio-Edit',
@@ -168,7 +168,7 @@ zokou(
   );
 
 // Cas pour l'effet "smooth"
-zokou(
+adams(
     {
       nomCom: 'smooth',
       categorie: 'Audio-Edit',
@@ -205,7 +205,7 @@ zokou(
   );
   
   // Cas pour l'effet "tempo"
-  zokou(
+  adams(
     {
       nomCom: 'tempo',
       categorie: 'Audio-Edit',
@@ -242,7 +242,7 @@ zokou(
   );
   
   // Cas pour l'effet "nightcore"
-  zokou(
+  adams(
     {
       nomCom: 'nightcore',
       categorie: 'Audio-Edit',
