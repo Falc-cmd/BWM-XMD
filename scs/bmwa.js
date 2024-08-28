@@ -1,9 +1,9 @@
-const { zokou } = require("../framework/zokou");
+const { adams } = require("../Ibrahim/adams");
 const yts = require('yt-search');
 const BaseUrl = 'https://gifted-apis-third-30b2fdbb9819.herokuapp.com';
 const giftedapikey = 'giftedtechk';
 
-zokou({
+adams({
   nomCom: "video",
   categorie: "Search",
   reaction: "🎥"
@@ -65,7 +65,7 @@ zokou({
   }
 });
 
-zokou({
+adams({
   nomCom: "song",
   categorie: "Search",
   reaction: "🎧"
@@ -125,7 +125,7 @@ zokou({
     repondre('Searching...⏳');
   }
 });
-zokou({
+adams({
   nomCom: "play",
   categorie: "Search",
   reaction: "🎧"
@@ -187,7 +187,7 @@ zokou({
   }
 });
 
-zokou({
+adams({
   nomCom: "ytmp3",
   categorie: "Search",
   reaction: "🎧"
@@ -247,7 +247,7 @@ zokou({
     repondre('Searching...⏳');
   }
 });
-zokou({
+adams({
   nomCom: "ytmp4",
   categorie: "Search",
   reaction: "🎥"
