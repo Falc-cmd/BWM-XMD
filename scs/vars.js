@@ -1,6 +1,6 @@
 const {
   adams
-} = require("../framework/adams");
+} = require("../Ibrahim/adams");
 const s = require("../set");
 const fs = require('fs');
 function getDescriptionFromEnv(_0x17fef1) {
