@@ -1,9 +1,9 @@
 const axios = require("axios");
-const {zokou} = require("../framework/zokou");
-const traduire = require("../framework/traduction");
+const {adams} = require("../Ibrahim/adams");
+const traduire = require("../Ibrahim/traduction");
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 
-zokou({
+adams({
   nomCom: "ranime",
   categorie: "Fun",
   reaction: "📺"
@@ -35,7 +35,7 @@ async (origineMessage, zk, commandeOptions) => {
   }
 });
 
-zokou({
+adams({
   nomCom: "google",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
@@ -64,7 +64,7 @@ zokou({
   }
 });
 
-zokou({
+adams({
   nomCom: "imdb",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
@@ -114,7 +114,7 @@ zokou({
   }
 });
 
-zokou({
+adams({
   nomCom: "movie",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
@@ -164,7 +164,7 @@ zokou({
   }
 });
 
-zokou({
+adams({
   nomCom: "emomix",
   categorie: "Conversion"
 }, async (dest, zk, commandeOptions) => {
