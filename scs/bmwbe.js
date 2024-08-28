@@ -1,5 +1,5 @@
 const {adams} = require("../Ibrahim/adams");
-const conf = require("../set")
+const conf = require("../config")
 const {jidDecode}=require("@whiskeysockets/baileys")
 
 
