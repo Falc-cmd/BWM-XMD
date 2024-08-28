@@ -1,10 +1,10 @@
 const {
-  zokou
-} = require("../framework/zokou");
+  adams
+} = require("../Ibrahim/adams");
 const axios = require("axios");
 const Genius = require("genius-lyrics");
 const Client = new Genius.Client("jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO");
-zokou({
+adams({
   'nomCom': 'poll',
   'reaction': '💠',
   'categorie': "General"
@@ -30,7 +30,7 @@ zokou({
     }
   });
 });
-zokou({
+adams({
   'nomCom': 'fact',
   'reaction': '👌',
   'categorie': 'User'
@@ -44,7 +44,7 @@ zokou({
   const _0x21e127 = await _0x5754a8.json();
   _0x12e23a(" *BMW MD FACT MESSAGE* \n*💠* " + _0x21e127.fact + "\n\n\n\n\n*©Ibrahim Adams*\n\n╔═════◇\n║◇ *BMW MD*\n╚════════════════════>  ");
 });
-zokou({
+adams({
   'nomCom': "quote",
   'reaction': '🗿',
   'categorie': 'User'
@@ -59,7 +59,7 @@ zokou({
   const _0x2b238b = "\nBMW MD QUITE MESSAGE \n◇ _" + _0x1f25fb.quote.body + "_\n\n\n◇ *AUTHOR:* " + _0x1f25fb.quote.author + "\n\n\n\n\n◇ *©Ibrahim Adams**\n\n\n╔═════◇\n║◇ *BMW MD*\n╚════════════════════> ";
   _0x3bef2d(_0x2b238b);
 });
-zokou({
+adams({
   'nomCom': 'define',
   'reaction': '😁',
   'categorie': "Search"
@@ -83,7 +83,7 @@ zokou({
     return _0x3c6e3b("No result for " + _0x243eb3);
   }
 });
-zokou({
+adams({
   'nomCom': "lyrics",
   'reaction': '🗞',
   'categorie': "Search"
