@@ -1,6 +1,6 @@
 const { adams } = require('../Ibrahim/adams);
 
-adams({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) => {
+adams({ nomCom: 'quote', categorie: 'general' }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, verifGroupe, arg } = commandeOptions;
   if (!verifGroupe) {
     repondre('Commande réservée au groupe uniquement');
@@ -20,7 +20,7 @@ adams({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) =
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by Zokou-MD`);
+Powered by BMW-MD`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
