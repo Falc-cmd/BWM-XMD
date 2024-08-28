@@ -1,5 +1,5 @@
 const {adams} = require("../Ibrahim/adams");
-const {getMessagesAndXPByJID,getBottom10Users} = require("../bdd/level");
+const {getMessagesAndXPByJID,getBottom10Users} = require("../lib/level");
 
 
 function get_level_exp(xp) {
