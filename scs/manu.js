@@ -3,15 +3,15 @@ const _0x5947f1=_0x4832;(function(_0x113309,_0x52ce94){const _0x29aecb=_0x4832,_
 **/
 const util = require('util');
 const fs = require('fs-extra');
-const { zokou } = require(__dirname + "/../framework/zokou");
-const { format } = require(__dirname + "/../framework/mesfonctions");
+const { adams } = require(__dirname + "/../Ibrahim/adams");
+const { format } = require(__dirname + "/../Ibrahim/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
-const s = require(__dirname + "/../set");
+const s = require(__dirname + "/../config");
 const more = String.fromCharCode(8206)
 const Taphere = more.repeat(4001)
 
-zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
+adams({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
