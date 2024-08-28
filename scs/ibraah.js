@@ -1,7 +1,7 @@
-const { zokou } = require("../framework/zokou");
+const { adams } = require("../Ibrahim/adams");
 //const ffmpeg = require("fluent-ffmpeg");
 //const fs = require('fs');
-zokou( {
+adams( {
   nomCom : "bao",
  categorie : "general",
   reaction : "😂" },
