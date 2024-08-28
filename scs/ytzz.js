@@ -1,11 +1,11 @@
-const { zokou } = require("../framework/zokou");
+const { adams } = require("../framework/adams");
 const yts = require('yt-search');
 //const ytdl = require('ytdl-core');
 const fs = require('fs');
 const yt=require("../framework/dl/ytdl-core.js")
 const ffmpeg = require("fluent-ffmpeg");
 const yts1 = require("youtube-yts");
-zokou({
+adams({
   nomCom: "play2",
 categorie: "Search",
 reaction: "🎧"
@@ -63,7 +63,7 @@ reaction: "🎧"
     console.error('Error:', error);
   }
 });
-zokou({
+adams({
   nomCom: "song2",
   categorie: "Search",
   reaction: "🎸"
