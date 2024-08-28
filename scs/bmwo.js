@@ -1,6 +1,6 @@
 const { adams } = require('../Ibrahim/adams');
-const {ajouterUtilisateurAvecWarnCount , getWarnCountByJID , resetWarnCountByJID} = require('../bdd/warn')
-const s = require("../set")
+const {ajouterUtilisateurAvecWarnCount , getWarnCountByJID , resetWarnCountByJID} = require('../lib/warn')
+const s = require("../config")
 
 
 adams(
