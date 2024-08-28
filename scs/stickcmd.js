@@ -1,9 +1,9 @@
-const {zokou }= require ('../framework/zokou') ;
+const {adams}= require ('../Ibrahim/adams) ;
 const {addstickcmd, deleteCmd, getCmdById, inStickCmd , getAllStickCmds} = require('../bdd/stickcmd') ;
 
 
 
-zokou(
+adams(
     {
         nomCom : 'setcmd',
         categorie : 'stickcmd'
@@ -30,7 +30,7 @@ zokou(
 
     }) ; 
 
-    zokou(
+    adams(
       {
           nomCom: 'delcmd',
           categorie: 'stickcmd'
@@ -62,7 +62,7 @@ zokou(
   );
   
 
-  zokou(
+  adams(
     {
         nomCom: 'allcmd',
         categorie: 'stickcmd'
