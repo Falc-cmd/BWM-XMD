@@ -1,10 +1,10 @@
 const axios = require('axios');
 const fs = require('fs');
-const { zokou } = require("../framework/zokou");
+const { adams } = require("../framework/adams");
 const { writeFile } = require('fs/promises')
 
 // Commande waifu
-zokou({
+adams({
   nomCom: "waifu",
   categorie: "Weeb",
   reaction: "😏"
@@ -28,7 +28,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 // Commande neko
-zokou({
+adams({
   nomCom: "neko",
   categorie: "Weeb",
   reaction: "😺"
@@ -51,7 +51,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 // Commande shinobu
-zokou({
+adams({
   nomCom: "shinobu",
   categorie: "Weeb",
   reaction: "🦋"
@@ -74,7 +74,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 // Commande megumin
-zokou({
+adams({
   nomCom: "megumin",
   categorie: "Weeb",
   reaction: "💥"
@@ -98,7 +98,7 @@ async (origineMessage, zk, commandeOptions) => {
 
 
 
-zokou({
+adams({
   nomCom: "cosplay",
   categorie: "Weeb",
   reaction: "😏"
@@ -127,7 +127,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 
-zokou({nomCom:"couplepp",categorie: "Weeb",reaction : "💞"},async(dest,zk,commandeOptions)=>{ const {repondre , ms} = commandeOptions;
+adams({nomCom:"couplepp",categorie: "Weeb",reaction : "💞"},async(dest,zk,commandeOptions)=>{ const {repondre , ms} = commandeOptions;
     let api = 'https://smiling-hosiery-bear.cyclic.app/weeb/couplepp'
   try {
      repondre('she/he dont love you :)')
