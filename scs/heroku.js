@@ -1,8 +1,8 @@
-const { zokou } = require('../framework/zokou');
-const s = require('../set')
+const { zokou } = require('../Ibrahim/adams');
+const s = require('../config')
 
 
-zokou(
+adams(
     {
         nomCom : "setvar",
         categorie : "heroku"
@@ -30,7 +30,7 @@ zokou(
     }
 );
 
-zokou(
+adams(
     {
         nomCom : "allvar",
         categorie : "heroku"
@@ -60,7 +60,7 @@ str+= '🚘 *'+vr+'* '+'= '+h[vr]+'\n'
 );       
 
 
-    zokou(
+    adams(
         {
             nomCom : "getvar",
             categorie : "heroku"
