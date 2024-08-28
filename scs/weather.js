@@ -1,6 +1,6 @@
 const {
   adams
-} = require("../framework/adams");
+} = require("../Ibrahim/adams");
 adams({
   'nomCom': "weather",
   'reaction': "🌡️",
