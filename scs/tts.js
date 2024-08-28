@@ -1,5 +1,5 @@
 const googleTTS = require('google-tts-api');
-const {adams} = require("../framework/adams");
+const {adams} = require("../Ibrahim/adams");
 
 
 adams( {
