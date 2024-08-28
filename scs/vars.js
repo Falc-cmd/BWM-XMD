@@ -1,6 +1,6 @@
 const {
-  zokou
-} = require("../framework/zokou");
+  adams
+} = require("../framework/adams");
 const s = require("../set");
 const fs = require('fs');
 function getDescriptionFromEnv(_0x17fef1) {
@@ -10,7 +10,7 @@ function getDescriptionFromEnv(_0x17fef1) {
   const _0x591f7d = _0x2b5786.env[_0x17fef1];
   return _0x591f7d && _0x591f7d.description ? _0x591f7d.description : "The environment variable description was not found.";
 }
-zokou({
+adams({
   'nomCom': "getallva",
   'categorie': "HEROKU"
 }, async (_0x2ab1fb, _0x2fdedb, _0x2e0b9d) => {
@@ -99,7 +99,7 @@ zokou({
   await _0x4126d6("That Heroku variable is changing, The bot is restarting....");
 });
 function changevars(_0x2cb3f3, _0x5ad9fd) {
-  zokou({
+  adams({
     'nomCom': _0x2cb3f3,
     'categorie': "HEROKU"
   }, async (_0x2c3d5e, _0x485844, _0xec8374) => {
