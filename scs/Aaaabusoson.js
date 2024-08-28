@@ -6,7 +6,7 @@ const BaseUrl = 'https://gifted-apis-third-30b2fdbb9819.herokuapp.com';
 const giftedapikey = 'giftedtechk';
 
 
-zokou({
+adams({
   nomCom: "ytmp9",
   categorie: "Search",
   reaction: "🎧"
