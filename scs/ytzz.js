@@ -1,4 +1,4 @@
-const { adams } = require("../framework/adams");
+const { adams } = require("../Ibrahim/adams");
 const yts = require('yt-search');
 //const ytdl = require('ytdl-core');
 const fs = require('fs');
