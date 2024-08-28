@@ -1,9 +1,9 @@
-const { zokou } = require('../framework/zokou');
-const {addOrUpdateDataInAlive , getDataFromAlive} = require('../bdd/alive')
+const { adams } = require('../Ibrahim/adams');
+const {addOrUpdateDataInAlive , getDataFromAlive} = require('../lip/alive')
 const moment = require("moment-timezone");
-const s = require(__dirname + "/../set");
+const s = require(__dirname + "/../config");
 
-zokou(
+adams(
     {
         nomCom : 'alive',
         categorie : 'General'
