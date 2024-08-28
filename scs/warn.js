@@ -1,4 +1,4 @@
-const { adams } = require('../framework/adams');
+const { adams } = require('../Ibrahim/adams');
 const {ajouterUtilisateurAvecWarnCount , getWarnCountByJID , resetWarnCountByJID} = require('../bdd/warn')
 const s = require("../set")
 
