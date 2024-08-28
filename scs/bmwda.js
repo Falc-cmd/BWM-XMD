@@ -1,4 +1,4 @@
-const { zokou } = require('../framework/zokou');
+const { zokou } = require('../Ibrahim/adams');
 
 // Set a riddle list with questions and answers
 const devinettes = [
