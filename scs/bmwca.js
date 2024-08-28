@@ -1,10 +1,10 @@
-const { zokou } = require("../framework/zokou");
+const { adams } = require("../Ibrahim/adams");
 const canvacord = require("canvacord");
-const {uploadImageToImgur} = require("../framework/imgur")
+const {uploadImageToImgur} = require("../Ibrahim/imgur")
 
 // Generic function to create a canvacord order
 function createCanvacordCommand(commandName, canvacordFunction) {
-  zokou({
+  adams({
     nomCom: commandName,
     categorie: "Image-Edit",
     reaction: "🎉"
