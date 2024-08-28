@@ -1,6 +1,6 @@
 
 
-const { zokou } = require("../framework/zokou");
+const { adams } = require("../framework/adams");
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
 const fs = require('fs');
