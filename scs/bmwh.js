@@ -1,5 +1,5 @@
 const { adams } = require('../Ibrahim/adams');
-const {addOrUpdateDataInAlive , getDataFromAlive} = require('../lip/alive')
+const {addOrUpdateDataInAlive , getDataFromAlive} = require('../lib/alive')
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../config");
 
