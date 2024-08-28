@@ -1,11 +1,11 @@
 
 
 
-const {zokou} = require('../framework/zokou');
+const {adams} = require('../Ibrahim/adams);
 var gis = require('g-i-s');
 
 
-zokou({
+adams({
   nomCom: "img",
   categorie: "Search",
   reaction: "📷"
