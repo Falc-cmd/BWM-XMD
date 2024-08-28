@@ -1,8 +1,8 @@
-const { zokou } = require('../framework/zokou');
-const { attribuerUnevaleur } = require('../bdd/welcome');
+const { adams } = require('../Ibrahim/adams');
+const { attribuerUnevaleur } = require('../lib/welcome');
 
 async function events(nomCom) {
-    zokou({
+    adams({
         nomCom: nomCom,
         categorie: 'Group'
     }, async (dest, zk, commandeOptions) => {
