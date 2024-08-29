@@ -1,4 +1,4 @@
-const { zokou } = require('../Ibrahim/adams');
+const { adams } = require('../Ibrahim/adams');
 
 // Set a riddle list with questions and answers
 const devinettes = [
@@ -96,7 +96,7 @@ const devinettes = [
   },
   ];
   
-zokou({ nomCom: "riddle", categorie: "Games" }, async (dest, zk, commandeOptions) => {
+adams({ nomCom: "riddle", categorie: "Games" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre } = commandeOptions;
 
   // Choose a random riddle
