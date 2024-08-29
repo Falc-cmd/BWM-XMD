@@ -1,4 +1,4 @@
-const {adams}= require ('../Ibrahim/adams) ;
+const {adams }= require ('../Ibrahim/adams') ;
 const {addstickcmd, deleteCmd, getCmdById, inStickCmd , getAllStickCmds} = require('../lib/stickcmd') ;
 
 
