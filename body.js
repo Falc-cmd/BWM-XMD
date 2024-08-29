@@ -857,7 +857,6 @@ zk.ev.on('group-participants.update', async (group) => {
 │🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ʙᴍᴡ ᴍᴅ*
 │👨‍💻 ᴏᴡɴᴇʀ : *sɪʀ ɪʙʀᴀʜɪᴍ*
 ╰─────────────━┈⊷
-> Plugins  : ${evt.cm.length}
 *Join Whatsapp Channel For Updates*
 > https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
                 
