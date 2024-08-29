@@ -37,7 +37,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 adams({
-  nomCom: "google",
+  nomCom: "google2",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre } = commandeOptions;
@@ -66,7 +66,7 @@ adams({
 });
 
 adams({
-  nomCom: "imdb",
+  nomCom: "imdb2",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre , ms } = commandeOptions;
@@ -116,7 +116,7 @@ adams({
 });
 
 adams({
-  nomCom: "movie",
+  nomCom: "series",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre , ms } = commandeOptions;
@@ -166,7 +166,7 @@ adams({
 });
 
 adams({
-  nomCom: "emomix",
+  nomCom: "emoji",
   categorie: "Conversion"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre,ms , nomAuteurMessage } = commandeOptions;
