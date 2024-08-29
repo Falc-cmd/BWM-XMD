@@ -1,6 +1,6 @@
 
 
-const { zokou } = require("../Ibrahim/adams")
+const { adams } = require("../Ibrahim/adams")
 //const { getGroupe } = require("../bdd/groupe")
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const {ajouterOuMettreAJourJid,mettreAJourAction,verifierEtatJid} = require("../lib/antilien")
