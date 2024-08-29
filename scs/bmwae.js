@@ -770,7 +770,7 @@ adams({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, z
 
 /*******************************  automute && autoummute ***************************/
 
-const cron = require(`../bdd/cron`) ;
+const cron = require(`../lib/cron`) ;
 
 
 adams({
