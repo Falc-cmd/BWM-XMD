@@ -6,7 +6,7 @@ const yt=require("../Ibrahim/dl/ytdl-core.js")
 const ffmpeg = require("fluent-ffmpeg");
 const yts1 = require("youtube-yts");
  adams({
-  nomCom: "somg2",
+  nomCom: "song2",
   categorie: "Search",
   reaction: "🎧"
 }, async (origineMessage, zk, commandeOptions) => {
