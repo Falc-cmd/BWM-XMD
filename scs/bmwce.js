@@ -1,7 +1,10 @@
 
 
 
-const {adams} = require('../Ibrahim/adams);
+
+
+
+const {adams} = require('../Ibrahim/adams');
 var gis = require('g-i-s');
 
 
