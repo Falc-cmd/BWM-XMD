@@ -35,13 +35,13 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
- > *Hey🖐️* *${nomAuteurMessage}*
+  *Hey🖐️* *${nomAuteurMessage}*
+  
+  *BMW MD IS RUNNING WITH [${cm.length}0] COMMANDS*
 
- > *BMW MD IS RUNNING WITH ${cm.length} COMMANDS*
-
- > *More commands will be out soon*
+  *More commands will be out soon*
  
- > 🚘🚘🚘
+  🚘🚘🚘
  `;
     
 let menuMsg = `
