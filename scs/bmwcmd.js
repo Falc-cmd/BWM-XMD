@@ -28,23 +28,27 @@ adams({ nomCom: "cmd", categorie: "General" }, async (dest, zk, commandeOptions)
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault('Etc/GMT');
+    moment.tz.setDefault("Africa/Nairobi");
 
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
- *Hey 🖐️*
+ > *Hey🖐️* *${nomAuteurMessage}*
 
- *BMW MD IS RUNNING WITH ${cm.length} COMMANDS*
+ > *BMW MD IS RUNNING WITH ${cm.length} COMMANDS*
 
- *More commands will be out soon*
+ > *More commands will be out soon*
  
- 🚘🚘🚘
+ > 🚘🚘🚘
  `;
     
 let menuMsg = `
+> ⏲️ ᴛɪᴍᴇ: ${temps}
+> 📅 ᴅᴀᴛᴇ: ${date} 
+
+
 > Made by : ©Ibrahim Adams 
 `;
 
