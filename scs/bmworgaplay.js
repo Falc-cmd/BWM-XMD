@@ -3,7 +3,7 @@ const {
 } = require("../Ibrahim/adams");
 const yts = require("yt-search");
 adams({
-  'nomCom': "play",
+  'nomCom': "play3",
   'categorie': "Search",
   'reaction': '🎧'
 }, async (_0x331cb3, _0x5ed62b, _0x29cdd3) => {
@@ -59,7 +59,7 @@ adams({
   }
 });
 adams({
-  'nomCom': "song",
+  'nomCom': "song3",
   'categorie': "Search",
   'reaction': '🎸'
 }, async (_0x230f93, _0x194dfe, _0x220b24) => {
@@ -114,7 +114,7 @@ adams({
   }
 });
 adams({
-  'nomCom': "video",
+  'nomCom': "video4",
   'categorie': "Search",
   'reaction': '🎬'
 }, async (_0x417693, _0x38ae7a, _0x524708) => {
