@@ -3,7 +3,7 @@ const {
 } = require("../Ibrahim/adams");
 const yts = require("yt-search");
 adams({
-  'nomCom': "play",
+  'nomCom': "play7",
   'categorie': "Search",
   'reaction': '🎧'
 }, async (_0x331cb3, _0x5ed62b, _0x29cdd3) => {
