@@ -155,7 +155,7 @@ adams({
         // Prepare the message with song details
         const infoMess = {
           image: { url: videos[0].thumbnail },
-          caption: `BMW SONG PLAYER*\n\n*◁ II ▷ 1:00 •၊၊||၊|။||။||၊|||။ ၊|•*${videos[0].timestamp}`
+          caption: `*BMW SONG PLAYER*\n\n*◁ II ▷ 1:00 •၊၊||၊|။||။||၊|||။ ၊|•${videos[0].timestamp}*\n\n*©Ibrahim Adams*`
         };
 
         // Send song details
@@ -214,7 +214,7 @@ adams({
         // Prepare the message with song details
         const infoMess = {
           image: { url: videos[0].thumbnail },
-          caption: `BMW SONG PLAYER*\n\n*◁ II ▷ 1:00 •၊၊||၊|။||။||၊|||။ ၊|•*${videos[0].timestamp}`
+          caption: `*BMW SONG PLAYER*\n\n*◁ II ▷ 1:00 •၊၊||၊|။||။||၊|||။ ၊|•${videos[0].timestamp}*\n\n*©Ibrahim Adams*`
         };
 
         // Send song details
