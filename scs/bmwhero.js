@@ -53,7 +53,7 @@ adams({
     'nom': "CHAT_BOT",
     'choix': ['on', "off"]
   }];
-  let _0x54dce5 = " ╭──────༺♡༻──────╮\n Flash-Md Settings\n ╰──────༺♡༻──────╯\n\n";
+  let _0x54dce5 = "*BMW MD VARS* \n\n";
   for (v = 0; v < _0x3e4f2b.length; v++) {
     _0x54dce5 += v + 1 + "- *" + _0x3e4f2b[v].nom + "*\n";
   }
@@ -75,14 +75,14 @@ adams({
     nom: _0x445a3c,
     choix: _0x14fe3a
   } = _0x3e4f2b[_0x2057c1];
-  let _0x1995c4 = " ╭──────༺♡༻──────╮\n Flash-Md settings\n ╰──────༺♡༻──────╯\n\n";
+  let _0x1995c4 = "*BMW MD VARS*\n\n";
   _0x1995c4 += "*Variable Name* :" + _0x445a3c + "\n";
   _0x1995c4 += "*Description* :" + getDescriptionFromEnv(_0x445a3c) + "\n\n";
-  _0x1995c4 += "┌────── ⋆⋅☆⋅⋆ ──────┐\n\n";
+  _0x1995c4 += "Select one\n\n";
   for (i = 0; i < _0x14fe3a.length; i++) {
     _0x1995c4 += "* *" + (i + 1) + "* => " + _0x14fe3a[i] + "\n";
   }
-  _0x1995c4 += "\n└────── ⋆⋅☆⋅⋆ ──────┘\n\n*Now reply this message with the number that matches your choice.*";
+  _0x1995c4 += "\n*®Adams 2024*\n\n*Now reply this message with the number that matches your choice.*";
   let _0x248936 = await _0x2fdedb.sendMessage(_0x2ab1fb, {
     'text': _0x1995c4
   }, {
