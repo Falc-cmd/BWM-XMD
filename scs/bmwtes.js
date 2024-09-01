@@ -6,7 +6,7 @@ const giftedapikey = 'ibrahimtech_ai';
 //const adam = 'prabath-api_5f6557';
 
 adams({
-  nomCom: "video1",
+  nomCom: "video",
   categorie: "Search",
   reaction: "🎥"
 }, async (dest, zk, commandeOptions) => {
@@ -66,7 +66,7 @@ adams({
 
 
 adams({
-  nomCom: "video1",
+  nomCom: "video",
   categorie: "Search",
   reaction: "🎬"
 }, async (dest, zk, commandeOptions) => {
@@ -123,7 +123,7 @@ adams({
 
 
 adams({
-  nomCom: "play1",
+  nomCom: "play",
   categorie: "Download",
   reaction: "🎧"
 }, async (dest, zk, commandeOptions) => {
@@ -182,7 +182,7 @@ adams({
 });
 
 adams({
-  nomCom: "song1",
+  nomCom: "song",
   categorie: "Download",
   reaction: "🎸"
 }, async (dest, zk, commandeOptions) => {
@@ -242,7 +242,7 @@ adams({
 
 
 adams({
-  nomCom: "ytmp31",
+  nomCom: "ytmp3",
   categorie: "Download",
   reaction: "🎧"
 }, async (dest, zk, commandeOptions) => {
@@ -302,7 +302,7 @@ adams({
 
 
 adams({
-  nomCom: "ytmp3doc1",
+  nomCom: "ytmp3doc",
   categorie: "Download",
   reaction: "🎧"
 }, async (dest, zk, commandeOptions) => {
