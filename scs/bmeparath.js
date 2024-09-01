@@ -20,7 +20,7 @@ adams({
 
     if (videos && videos.length > 0 && videos[0]) {
       const urlElement = videos[0].url;
-      const apiResponse = await fetch(`https://prabath-md-api.up.railway.app/api/ytmp4?url=${encodeURIComponent(videoUrl)}&apikey=prabath-api_9d4fdb`);
+      const apiResponse = await fetch(`https://prabath-md-api.up.railway.app/api/ytmp3?url=${encodeURIComponent(videoUrl)}&apikey=prabath-api_9d4fdb`);
       const apiResult = await apiResponse.json();
 
       if (apiResult.status === 'success ✅') {
