@@ -1,5 +1,10 @@
 const { adams } = require("../Ibrahim/adams");
 const yts = require('yt-search');
+//const ytdl = require('ytdl-core');
+const fs = require('fs');
+const yt=require("../Ibrahim/dl/ytdl-core.js")
+const ffmpeg = require("fluent-ffmpeg");
+const yts1 = require("youtube-yts");
 
 adams({
   nomCom: "sing",
@@ -24,7 +29,7 @@ adams({
       const apiResult = await apiResponse.json();
 
       if (apiResult.status === 'success ✅') {
-        const audioUrl = apiResult.data.download;
+        const audioUrl = apiResult.data.downloadUrl;
         const fileInfo = {
           title: apiResult.data.title,
           fileSize: apiResult.data.file_size,
