@@ -251,6 +251,8 @@ function mybotpic() {
             };
 
             /************************ anti-delete-message */
+            if (_0x18215e === _0x79eeda && conf.AUTOREAD_MESSAGES === 'on') {
+        _0x29ce6c.readMessages([_0x19bc4f.key]);
 
             if(ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLocaleLowerCase() === 'yes' ) {
 
