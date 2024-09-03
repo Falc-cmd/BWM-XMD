@@ -251,8 +251,7 @@ function mybotpic() {
             };
 
             /************************ anti-delete-message */
-            if (_0x18215e === _0x79eeda && conf.AUTOREAD_MESSAGES === 'on') {
-        _0x29ce6c.readMessages([_0x19bc4f.key]);
+            
 
             if(ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLocaleLowerCase() === 'yes' ) {
 
@@ -264,7 +263,7 @@ function mybotpic() {
         
                                try {
         
-                                  let st = './store.json' ;
+                                  let st = './gif.json' ;
         
                                 const data = fs.readFileSync(st, 'utf8');
         
@@ -302,6 +301,8 @@ function mybotpic() {
                             }
         
             /** ****** gestion auto-status  */
+            
+                
             if (ms.key && ms.key.remoteJid === "status@broadcast" && conf.AUTO_READ_STATUS === "yes") {
                 await zk.readMessages([ms.key]);
             }
