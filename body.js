@@ -172,9 +172,9 @@ setTimeout(() => {
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
             }
-            console.log("message envoyé par : " + "[" + nomAuteurMessage + " : " + auteurMessage.split("@s.whatsapp.net")[0] + " ]");
-            console.log("type de message : " + mtype);
-            console.log("------ message ------");
+            console.log("message sent by : " + "[" + nomAuteurMessage + " : " + auteurMessage.split("@s.whatsapp.net")[0] + " ]");
+            console.log("message type : " + mtype);
+            console.log("------ message content ------");
             console.log(texte);
             /**  */
             function groupeAdmin(membreGroupe) {
@@ -249,13 +249,13 @@ function mybotpic() {
                 mybotpic
             
             };
-
-            /************************ anti-delete-message */
-            if (origineMessage === auteurMessage && conf.Re === "yes") {
+            
+if (origineMessage === auteurMessage && conf.Re === "yes") {
 
 zk.readMessages([ms.key]);
             }
-
+            /************************ anti-delete-message */
+           
             
 
             if(ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLocaleLowerCase() === 'yes' ) {
@@ -311,6 +311,7 @@ zk.readMessages([ms.key]);
             if (ms.key && ms.key.remoteJid === "status@broadcast" && conf.AUTO_READ_STATUS === "yes") {
                 await zk.readMessages([ms.key]);
             }
+                                                                                      }
             if (ms.key && ms.key.remoteJid === 'status@broadcast' && conf.AUTO_DOWNLOAD_STATUS === "yes") {
                 /* await zk.readMessages([ms.key]);*/
                 if (ms.message.extendedTextMessage) {
