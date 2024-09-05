@@ -1,7 +1,7 @@
 {
     "name": "Bmwmd",
     "description": "Best wabot",
-    "main": "./body.js",
+    "main": "./index.js",
   "engines" : { 
     "npm" : ">=9.7.2",
     "node" : ">=20.0.0"
