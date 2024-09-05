@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./lib
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./lib/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/Ibrahim/app");
-var session = conf.session.replace(/Adams-2024;;;/g,"");
+var session = conf.session.replace(/BMW-MD;;;=>/g,"");
 const prefixe = conf.PREFIXE;
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
@@ -172,9 +172,9 @@ setTimeout(() => {
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
             }
-            console.log("message sent by : " + "[" + nomAuteurMessage + " : " + auteurMessage.split("@s.whatsapp.net")[0] + " ]");
-            console.log("message type : " + mtype);
-            console.log("------ message content ------");
+            console.log("message envoyé par : " + "[" + nomAuteurMessage + " : " + auteurMessage.split("@s.whatsapp.net")[0] + " ]");
+            console.log("type de message : " + mtype);
+            console.log("------ message ------");
             console.log(texte);
             /**  */
             function groupeAdmin(membreGroupe) {
@@ -249,15 +249,8 @@ function mybotpic() {
                 mybotpic
             
             };
-            
-if (origineMessage === auteurMessage && conf.Re === "yes") {
 
-zk.readMessages([ms.key]);
-                        
-            }
             /************************ anti-delete-message */
-           
-            
 
             if(ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLocaleLowerCase() === 'yes' ) {
 
@@ -269,7 +262,7 @@ zk.readMessages([ms.key]);
         
                                try {
         
-                                  let st = './gif.json' ;
+                                  let st = './store.json' ;
         
                                 const data = fs.readFileSync(st, 'utf8');
         
@@ -307,12 +300,9 @@ zk.readMessages([ms.key]);
                             }
         
             /** ****** gestion auto-status  */
-            
-                
             if (ms.key && ms.key.remoteJid === "status@broadcast" && conf.AUTO_READ_STATUS === "yes") {
                 await zk.readMessages([ms.key]);
             }
-                                                                                      }
             if (ms.key && ms.key.remoteJid === 'status@broadcast' && conf.AUTO_DOWNLOAD_STATUS === "yes") {
                 /* await zk.readMessages([ms.key]);*/
                 if (ms.message.extendedTextMessage) {
