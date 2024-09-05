@@ -250,7 +250,7 @@ function mybotpic() {
             
             };
             
-if (origineMessage === auteurMessage && conf.AUTO_READ_MESSAGE === "yes") {
+if (origineMessage === auteurMessage && conf.AUTOREAD_MESSAGE === "yes") {
 
 zk.readMessages([ms.key]);
             }
