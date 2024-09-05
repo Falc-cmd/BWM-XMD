@@ -1,13 +1,12 @@
+
 {
-    "name": "Bmwmd",
-    "description": "Best wabot",
-    "main": "./index.js",
-  "engines" : { 
-    "npm" : ">=9.7.2",
-    "node" : ">=20.0.0"
-    },
-    "scripts": {
-    "start": "node body.js"
+    "name": "BMW-MD",
+  "version": "2.0.0",
+  "description": "",
+  "main": "body.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node body.js",
     "c": "tsc"
   },
   "keywords": [
