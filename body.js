@@ -250,9 +250,10 @@ function mybotpic() {
             
             };
             
-if (origineMessage === auteurMessage && conf.AUTOREAD_MESSAGES === "yes") {
+if (origineMessage === auteurMessage && conf.Re === "yes") {
 
 zk.readMessages([ms.key]);
+                        
             }
             /************************ anti-delete-message */
            
