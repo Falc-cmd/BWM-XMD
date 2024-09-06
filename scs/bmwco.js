@@ -70,7 +70,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"Beltah-Md" ,
+      pack:"Bmw-Md" ,
       author: nomAuteurMessage,
       type:
         arg.includes("crop") || arg.includes("c")
@@ -252,7 +252,7 @@ adams({ nomCom: "write", categorie: "Conversion", reaction: "👨🏿‍💻" },
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: 'Zokou-Md',
+      author: 'bmw-Md',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",
@@ -275,7 +275,7 @@ adams({ nomCom: "write", categorie: "Conversion", reaction: "👨🏿‍💻" },
 
 
 
-adams({nomCom:"photo",categorie: "Conversion", reaction: "👨🏿‍💻"},async(dest,zk,commandeOptions)=>{
+adams({nomCom:"tophoto",categorie: "Conversion", reaction: "👨🏿‍💻"},async(dest,zk,commandeOptions)=>{
    const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
 
   if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
