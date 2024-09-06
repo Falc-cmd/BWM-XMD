@@ -2,7 +2,7 @@ const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter')
 const { adams } = require("../Ibrahim/adams");
 const traduire = require("../Ibrahim/traduction");
 const { downloadMediaMessage,downloadContentFromMessage } =  require('@whiskeysockets/baileys');
-const fs =require("fs") ;
+const fs =require("fs-extra") ;
 const axios = require('axios');  
 const FormData = require('form-data');
 const { exec } = require("child_process");
@@ -367,10 +367,10 @@ adams({ nomCom: "url", categorie: "General", reaction: "👨🏿‍💻" }, asyn
 
   try {
       const telegraphUrl = await uploadToTelegraph(mediaPath);
-      fs.unlinkSync(media);   // Supprime le fichier après utilisation
+      fs.unlinkSync(mediaPath);   // Supprime le fichier après utilisation
 
       zk.sendMessage(m.chat, { image: buffer, caption: `Converted by Dreaded! 🦄`}, { quoted: m}) 
-   fs.unlinkSync(media);   
+   fs.unlinkSync(mediaPath);   
   } catch (error) {
       console.error('Erreur lors de la création du lien Telegraph :', error);
       repondre('Opps error');
