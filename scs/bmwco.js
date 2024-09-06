@@ -2,7 +2,7 @@ const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter')
 const { adams } = require("../Ibrahim/adams");
 const traduire = require("../Ibrahim/traduction");
 const { downloadMediaMessage,downloadContentFromMessage } =  require('@whiskeysockets/baileys');
-const fs =require("fs-extra") ;
+const fs =require("fs") ;
 const axios = require('axios');  
 const FormData = require('form-data');
 const { exec } = require("child_process");
@@ -367,8 +367,8 @@ adams({ nomCom: "url", categorie: "Conversion", reaction: "👨🏿‍💻" }, a
   }
 
   try {
-      const telegraphUrl = await uploadToTelegraph(mediaPath);
-      fs.unlinkSync(mediaPath);  // Supprime le fichier après utilisation
+      const telegraphUrl = await uploadToTelegraph(tmpDir);
+      fs.mkdirSync(tmpDir);  // Supprime le fichier après utilisation
 
       repondre(telegraphUrl);
   } catch (error) {
